@@ -37,7 +37,6 @@ AWS configuration options:
   -r REGION, --region REGION
                         Override AWS region
 ```
-## Example
 
 ### Examples
 
@@ -47,7 +46,7 @@ python3 aws_ssm_parameter_backup.py -m export -o parameter_store_dev.json -s asc
 ```
 
 **Output**
-```bash
+```json
 {
   "Parameters": [
     {
